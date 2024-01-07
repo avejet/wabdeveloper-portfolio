@@ -15,10 +15,9 @@ body{
     padding: 15px 35px;
 }
 .section-title{
-    color: #181818);
+    color: #181818;
     text-align: center;
     font-size: 35px;
-    font-weight: 700;
 }
 .section-description{
     color: var( #757575);
@@ -84,6 +83,10 @@ nav a{
     margin-bottom: 20px;
 }
 /*main section styles*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /*about section styles*/
 .about{
@@ -91,4 +94,13 @@ nav a{
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+.about-info-continer{
+    display: flex;
+    justify-content: space-around;
+}.about-info-continer{
+    text-align: center;
+}
+#what-i-do-discription{
+    padding: 30px 150px;
 }
